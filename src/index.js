@@ -10,6 +10,7 @@
 
 var Alert = require('blear.ui.alert');
 var typeis = require('blear.utils.typeis');
+var time = require('blear.utils.time');
 
 
 /**
@@ -36,6 +37,10 @@ module.exports = function (message) {
         });
     });
 
-    return alert.open();
+    time.nextTick(function () {
+        alert.open();
+    });
+
+    return alert;
 };
 
