@@ -37,9 +37,7 @@ module.exports = function (message) {
         });
     });
 
-    time.nextTick(function () {
-        alert.open();
-    });
+    alert.open();
 
     return alert;
 };
