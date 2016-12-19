@@ -1,6 +1,6 @@
 {
   "name": "blear.components.alert",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "alert 组件",
   "scripts": {
     "live": "browser-sync start --config bs-config.js"
@@ -33,12 +33,12 @@
   "bugs": {
     "url": "https://github.com/blearjs/blear.components.alert/issues"
   },
-  "dependencies": {},
-  "peerDependencies": {
+  "dependencies": {
     "blear.ui.alert": "1.x",
     "blear.utils.typeis": "1.x",
     "blear.utils.time": "1.x"
   },
+  "peerDependencies": {},
   "devDependencies": {
 
   },
